@@ -1,0 +1,16 @@
+3) Progress Report (20 points), 14th November
+The format of the progress report will be a Jupyter notebook
+uploaded to the private github repository you have set up for your team. It should Include:
+● Project introduction: an introduction that discusses the data and related problems that you are investigating.
+● Any changes since the proposal: a discussion whether your scope has changed since the check-in proposal slides. List the parts that were removed from your plan as well as the parts that were added newly in your plan.
+● Data: explain how you have prepared your data.
+● Exploratory data analysis: explain what your data looks like (visualizations are often
+better). Include any interesting issues or preliminary
+conclusions you have about your data.
+● At least five visualizations that shows an interesting hypothesis, along with an
+explanation about why you thought this was an interesting hypothesis to
+Investigate. Write the name of the member(s) who is responsible for each of them while explaining it.
+● At least two ML analyses on your dataset, along with a baseline comparison and an interpretation of the result that you obtain. Write the name of the member(s) who is responsible for it while explaining it.
+● Reflection: a discussion on the following aspects:
+○ What is the most challenging part of the project that you’ve encountered so far?
+○ What are your initial insights?
