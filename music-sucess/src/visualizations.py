@@ -27,3 +27,17 @@ plt.tight_layout()
 
 # Show plot
 plt.show()
+
+# Load dataset (update path if needed)
+df = pd.read_csv("data/raw/dataset.csv")
+
+# Convert duration from milliseconds to minutes
+df["duration_min"] = df["duration_ms"] / 60000
+
+# Scatter plot
+plt.figure(figsize=(8, 6))
+plt.scatter(df["duration_min"], df["popularity"], alpha=0.3)
+plt.xlabel("Song Duration (minutes)")
+plt.ylabel("Popularity")
+plt.title("Song Duration vs Popularity")
+plt.show()
